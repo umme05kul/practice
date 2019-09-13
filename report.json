@@ -1,0 +1,144 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 6,
+        "name": "User Login with valid Credentials",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 18342940600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User in Homepage",
+            "match": {
+              "location": "test.user_in_Homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6983578300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters Username and Password and click on Login Button",
+            "match": {
+              "location": "test.user_enters_Username_and_Password_and_click_on_Login_Button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10239600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User Logged verified",
+            "match": {
+              "location": "test.user_Logged_verified()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-09-13T05:05:26.488Z",
+        "line": 12,
+        "name": "Successfull checkout",
+        "description": "",
+        "id": "end-to-end-product-purchase;successfull-checkout",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 942898300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User Searches for Electronics,Headphone",
+            "match": {
+              "location": "test.user_searches_for_Electronics_Headphone()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1972537000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User add the product to the Shopping cart",
+            "match": {
+              "location": "test.user_add_the_product_to_the_Shopping_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Sign Ou]t\u003e but was:\u003c[View Car]t\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat test.test.user_proceeds_for_checkout(test.java:68)\r\n\tat ✽.User proceeds for checkout(classpath:test/out.feature:15)\r\n",
+              "duration": 16924100,
+              "status": "failed"
+            },
+            "line": 15,
+            "name": "User proceeds for checkout",
+            "match": {
+              "location": "test.user_proceeds_for_checkout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 42900,
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "Select bank and Add Credentials",
+            "match": {
+              "location": "test.select_bank_and_Add_Credentials()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 22800,
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "User directed to Thankyou Page",
+            "match": {
+              "location": "test.user_directed_to_Thankyou_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      }
+    ],
+    "name": "End to End Product purchase",
+    "description": "   This shows the Linda purchase for product",
+    "id": "end-to-end-product-purchase",
+    "keyword": "Feature",
+    "uri": "classpath:test/out.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
